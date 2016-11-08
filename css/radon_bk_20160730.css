@@ -1,0 +1,223 @@
+/*!
+ * Start Bootstrap - Business Casual (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*background: url('../img/home_2.jpg') no-repeat center center fixed;*/
+    /*background-color:#A5D0F0;*/
+    background-color: white;
+    padding:0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #066DB8;/*a kind of blue ---this is the color for the line in the box*/
+    width:100%;
+}
+
+.top-banner {
+    background-color: yellow;
+   
+    /*background: url('../img/home_2.jpg') no-repeat center center fixed;*/
+}
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 20px auto 3px;
+    max-width: 250px;
+    border-color: #066DB8;/*a line color. the line divide the slider and the 'welcome...'*/
+}
+
+#page_body_z{
+    width:95%;
+    position:center;
+    background-color:#fff;
+    padding-top:20px;
+}
+.box {/*this is the setting for each block text/slider*/
+    width:100%;
+    margin-bottom: 20px;/*spaces between two boxes*/
+    padding: 30px 15px;
+    /*background: rgba(255,255,255,0.9);*/
+    background: #f6f6f6;/*box background color*/
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    /*background: rgba(255,255,255,0.9);*/
+    background: #79C2F5;/*color*/
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+       height:200px;/*affix use*/
+	display: inherit;
+        margin: 10px 0 0;/*related to top banner*/
+        padding: 50px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 7em;
+        font-weight: 500;
+        line-height: normal;
+        color: #000;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #000;
+    }
+
+    .affix{
+	background-color:#79C2F5;/**/
+	position:fixed;
+	top:0;
+	width:100%;
+    	z-index :10;/*overlay over carousel images..*/
+        -wekit-transition:all .6s ease-in-out;/*make the smaller screen top banner works!!!*/
+    }
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        /*background: rgba(255,255,255,0.9);*/
+        background: #C7DFF1;/*Color*/
+    }
+
+    .nav>li>a {
+        /*padding: 35px;*/
+    	padding: 30px;/*adjust the height of navigation bar*/
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+    
+   
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+
+
